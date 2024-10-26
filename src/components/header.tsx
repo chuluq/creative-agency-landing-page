@@ -11,7 +11,7 @@ import dropbox from "@/assets/dropbox.svg";
 
 export const Header = () => {
   return (
-    <header className="flex flex-col space-y-20 pt-6">
+    <header className="container mx-auto flex max-w-screen-xl flex-col space-y-20 pt-6">
       {/* Menu */}
       <div className="flex items-center justify-between">
         <Link href="/">

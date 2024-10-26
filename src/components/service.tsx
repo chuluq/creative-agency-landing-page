@@ -6,7 +6,10 @@ import award from "@/assets/award.png";
 
 export const Service = () => {
   return (
-    <section id="service" className="space-y-36 py-28">
+    <section
+      id="service"
+      className="container mx-auto max-w-screen-xl space-y-36 py-28"
+    >
       <div className="flex flex-col items-center gap-y-3 text-center">
         <h2 className="font-serif text-3xl text-[#0F2137]">
           Go Beyond unlimited features
