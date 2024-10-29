@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import Image, { type StaticImageData } from "next/image";
 
 import marketplace from "@/assets/marketplace.png";
 import gift from "@/assets/gift.png";

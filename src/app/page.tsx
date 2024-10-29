@@ -1,3 +1,4 @@
+import { Features } from "@/components/features";
 import { Header } from "@/components/header";
 import { Service } from "@/components/service";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="font-sans">
       <Header />
       <Service />
+      <Features />
     </div>
   );
 }
