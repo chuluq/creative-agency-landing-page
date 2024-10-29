@@ -8,38 +8,36 @@ import done from "@/assets/done.svg";
 export const Features = () => {
   return (
     <section id="features">
-      <div>
-        <div className="bg-[#F9FAFC] py-16">
-          <div className="container mx-auto grid max-w-screen-xl grid-cols-2 items-center gap-x-36">
-            <Image src={boost} alt="illustration" />
-            <div className="flex max-w-[511px] flex-col gap-y-7">
-              <h2 className="font-serif text-[40px] text-[#0F2137]">
-                We help you to boost your business profitable with our talent
-                marketer
-              </h2>
-              <p className="text-lg leading-relaxed text-[#02073E]">
-                Get your tests delivered at let home collect sample from the
-                victory of the managments that supplies best design system
-                guidelines ever.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-center gap-x-3">
-                  <Image src={done} alt="done" />
-                  <p className="font-medium text-[#02073E]">
-                    Unlimited design possibility
-                  </p>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Image src={done} alt="done" />
-                  <p className="font-medium text-[#02073E]">
-                    Completely responsive features
-                  </p>
-                </div>
+      <div className="bg-[#F9FAFC] py-16">
+        <div className="container mx-auto grid max-w-screen-xl grid-cols-2 items-center gap-x-36">
+          <Image src={boost} alt="illustration" />
+          <div className="flex max-w-[511px] flex-col gap-y-7">
+            <h2 className="font-serif text-[40px] text-[#0F2137]">
+              We help you to boost your business profitable with our talent
+              marketer
+            </h2>
+            <p className="text-lg leading-relaxed text-[#02073E]">
+              Get your tests delivered at let home collect sample from the
+              victory of the managments that supplies best design system
+              guidelines ever.
+            </p>
+            <div className="space-y-3">
+              <div className="flex items-center gap-x-3">
+                <Image src={done} alt="done" />
+                <p className="font-medium text-[#02073E]">
+                  Unlimited design possibility
+                </p>
               </div>
-              <a href="https://google.com" className="text-[#3183FF]">
-                Explore Details {">"}
-              </a>
+              <div className="flex items-center gap-3">
+                <Image src={done} alt="done" />
+                <p className="font-medium text-[#02073E]">
+                  Completely responsive features
+                </p>
+              </div>
             </div>
+            <a href="https://google.com" className="text-[#3183FF]">
+              Explore Details {">"}
+            </a>
           </div>
         </div>
         <div className="py-16">

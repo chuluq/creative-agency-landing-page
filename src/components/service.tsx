@@ -50,7 +50,7 @@ const ServiceItem = ({ img, title, caption }: ServiceItem) => {
   return (
     <div className="flex max-w-96 items-start gap-x-7">
       <Image src={img} alt={title} className="size-12" />
-      <div className="space-y-4">
+      <div className="space-y-2">
         <h6 className="text-lg font-medium text-[#0F2137]">{title}</h6>
         <p className="text-[#343D48]">{caption}</p>
       </div>
