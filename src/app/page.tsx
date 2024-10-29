@@ -2,6 +2,7 @@ import { Features } from "@/components/features";
 import { Header } from "@/components/header";
 import { HowItWorks } from "@/components/how-it-works";
 import { Service } from "@/components/service";
+import { Team } from "@/components/team";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Service />
       <Features />
       <HowItWorks />
+      <Team />
     </div>
   );
 }
