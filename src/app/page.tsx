@@ -1,4 +1,5 @@
 import { Features } from "@/components/features";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { HowItWorks } from "@/components/how-it-works";
 import { Service } from "@/components/service";
@@ -12,6 +13,8 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Team />
+      {/* Banner */}
+      <Footer />
     </div>
   );
 }
