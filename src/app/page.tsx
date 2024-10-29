@@ -1,5 +1,6 @@
 import { Features } from "@/components/features";
 import { Header } from "@/components/header";
+import { HowItWorks } from "@/components/how-it-works";
 import { Service } from "@/components/service";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Service />
       <Features />
+      <HowItWorks />
     </div>
   );
 }
