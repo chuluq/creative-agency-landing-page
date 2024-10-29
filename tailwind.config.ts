@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundPosition: {
+        pattern: "83% 50%",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
